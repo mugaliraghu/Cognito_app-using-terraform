@@ -37,6 +37,12 @@ terraform apply --auto-approve
 ```
 to verify the resources, open the management console and go to the "cognito" search the name of the userpool that you given while creating terraform code, also check with the App integration in that it will create App clients, go inside that and you will find "Hosted Ui".
 
+![Screenshot (106)](https://user-images.githubusercontent.com/120295902/235735658-8d887291-8903-4c34-a01c-e623d0a8aaa0.png)
+
+![Screenshot (104)](https://user-images.githubusercontent.com/120295902/235735667-8992eee2-d7dd-44ab-9702-85e56272d267.png)
+
+![Screenshot (107)](https://user-images.githubusercontent.com/120295902/235735686-00932550-ff20-49eb-b475-e155bbed984b.png)
+
 open the "view  Hosted UI" it will redirected to the website, copy that url and paste it inside the Cognito app files, replace # with url in index.html
 as shown in below image
 
