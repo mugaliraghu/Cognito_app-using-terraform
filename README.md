@@ -76,14 +76,18 @@ after validation, the application is going to logged_in, As shown
 ![Screenshot (109)](https://user-images.githubusercontent.com/120295902/235737180-c09e6ba9-401f-4f34-a59d-d57bb0ef6c6e.png)
 
 If you do logout, it will redirect to the page, As shown
+
 ![Screenshot (110)](https://user-images.githubusercontent.com/120295902/235737187-15d02c48-8172-4b71-a04d-a43ca9b2644c.png)
 
-after verification you will logged into application.
-after logged in, check with the lambda function cloudwatch logs it will show the details of the user, that is as shown in image
+And also in the aws management console cognito, check user pool properties you can see the post confirmation Lambda triggers as shown.
 
 ![Screenshot (105)](https://user-images.githubusercontent.com/120295902/235738720-fd3d0e9b-6ee4-496e-b20e-331227c6aca9.png)
 
+The lambda function as shown in below image.
+
 ![Screenshot (111)](https://user-images.githubusercontent.com/120295902/235738321-1b4a7925-22b8-4ee4-a2ca-caf0c450f7fc.png)
+
+and in the CloudWatch logs you can check the App client id, user pool, user authentication status and user attributes etc.
 
 ![Screenshot (103)](https://user-images.githubusercontent.com/120295902/235731255-f7eea894-d373-4ef8-b87e-a023f79de472.png)
 
