@@ -4,6 +4,10 @@
 
 2.AWS cli with configure.
 
+## Objective
+The Terraform configuration provided is used to create an AWS Cognito user pool and associated resources, along with an AWS Lambda function and the necessary IAM roles and policies.
+Lambda function in Amazon Cognito invokes this trigger after a new user is confirmed, allowing you to send custom messages or to add custom logic.
+
 ## Steps:
 
 Clone the Project and navigate to the folder "cognito-app" and run the below command.
@@ -15,7 +19,6 @@ the code will run on the PORT 8000,open the Browser and run the Below url
 localhost:8000
 ```
 you will get the output as shown in below image.
-
 
 ![Screenshot (95)](https://user-images.githubusercontent.com/120295902/235646615-444e1946-0323-4395-9fac-0d55266d13d6.png)
 
@@ -35,11 +38,15 @@ after perform below command to deploy the application in aws and '--auto-approve
 ```t
 terraform apply --auto-approve
 ```
-to verify the resources, open the management console and go to the "cognito" search the name of the userpool that you given while creating terraform code, also check with the App integration in that it will create App clients, go inside that and you will find "Hosted Ui".
+to verify the resources, open the management console and go to the "cognito" search the name of the userpool that you given while creating terraform code.
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/120295902/235735658-8d887291-8903-4c34-a01c-e623d0a8aaa0.png)
 
+also check with the App integration in that it will create App clients
+
 ![Screenshot (104)](https://user-images.githubusercontent.com/120295902/235735667-8992eee2-d7dd-44ab-9702-85e56272d267.png)
+
+enter "Hosted Ui".to get the application login page
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/120295902/235735686-00932550-ff20-49eb-b475-e155bbed984b.png)
 
