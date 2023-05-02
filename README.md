@@ -56,7 +56,17 @@ for logged_in.html do some changes in url, that is replace login with logout, lo
 
 ![Screenshot (101)](https://user-images.githubusercontent.com/120295902/235729327-838b19c6-7737-4cdb-8edf-202f523a8126.png)
 
-Now, Signup application with email and password, it will sent verification code to the email, after verification you will logged into application.
+Now, Signup application with email and password, it will sent verification code to the email, 
+
+![Screenshot (107)](https://user-images.githubusercontent.com/120295902/235737171-fbb61930-82e8-46f3-89e0-7fda2814734a.png)
+
+![Screenshot (108)](https://user-images.githubusercontent.com/120295902/235737176-95e4bee9-a977-4fae-a0d2-6c87ff00b74b.png)
+
+![Screenshot (109)](https://user-images.githubusercontent.com/120295902/235737180-c09e6ba9-401f-4f34-a59d-d57bb0ef6c6e.png)
+
+![Screenshot (110)](https://user-images.githubusercontent.com/120295902/235737187-15d02c48-8172-4b71-a04d-a43ca9b2644c.png)
+
+after verification you will logged into application.
 after logged in, check with the lambda function cloudwatch logs it will show the details of the user, that is as shown in image
 
 ![Screenshot (103)](https://user-images.githubusercontent.com/120295902/235731255-f7eea894-d373-4ef8-b87e-a023f79de472.png)
