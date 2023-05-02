@@ -1,5 +1,5 @@
 ## prerequisites
-1.Python.
+1.Python
 2.AWS cli with configure.
 
 ## Steps:
