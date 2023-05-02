@@ -17,3 +17,7 @@ you will get the output as shown in below image.
 
 ![Screenshot (95)](https://user-images.githubusercontent.com/120295902/235646615-444e1946-0323-4395-9fac-0d55266d13d6.png)
 
+after that go to the terraform folder and navigate to the main file and run the command
+```t
+terraform init
+```
