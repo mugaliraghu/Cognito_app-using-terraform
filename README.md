@@ -23,3 +23,14 @@ after that go to the terraform folder and navigate to the main file and run the 
 ```t
 terraform init
 ```
+then, use need to use the below command to validate the file
+```t
+terraform validate
+```
+and terraform plan will generate execution plan, showing you what actions will be taken without actuallay performing planned actions.
+```t
+terraform plan
+```
+after perform below command to deploy the application in aws and '--auto-approve' applying changes without having to interactively type 'yes' to the plan.
+```t
+terraform apply --auto-approve
