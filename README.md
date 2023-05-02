@@ -50,7 +50,7 @@ enter "Hosted Ui".to get the application login page
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/120295902/235735686-00932550-ff20-49eb-b475-e155bbed984b.png)
 
-open the "view  Hosted UI" it will redirected to the website, copy that url and paste it inside the Cognito app files, replace # with url in index.html
+after launching "Hosted UI" it will redirected to the website, copy that url and paste it inside the Cognito app files, replace "#" with url in index.html
 as shown in below image
 
 ![Screenshot (100)](https://user-images.githubusercontent.com/120295902/235729317-90441b7e-8859-4a6b-b343-2aaae7b733e0.png)
@@ -63,14 +63,19 @@ for logged_in.html do some changes in url, that is replace login with logout, lo
 
 ![Screenshot (101)](https://user-images.githubusercontent.com/120295902/235729327-838b19c6-7737-4cdb-8edf-202f523a8126.png)
 
-Now, Signup application with email and password, it will sent verification code to the email, 
+Now, Signup application with email and password, it will sent verification code to the email, as shown.
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/120295902/235737171-fbb61930-82e8-46f3-89e0-7fda2814734a.png)
 
+enter the verification code.
+
 ![Screenshot (108)](https://user-images.githubusercontent.com/120295902/235737176-95e4bee9-a977-4fae-a0d2-6c87ff00b74b.png)
+
+after validation, the application is going to logged_in, As shown
 
 ![Screenshot (109)](https://user-images.githubusercontent.com/120295902/235737180-c09e6ba9-401f-4f34-a59d-d57bb0ef6c6e.png)
 
+If you do logout, it will redirect to the page, As shown
 ![Screenshot (110)](https://user-images.githubusercontent.com/120295902/235737187-15d02c48-8172-4b71-a04d-a43ca9b2644c.png)
 
 after verification you will logged into application.
