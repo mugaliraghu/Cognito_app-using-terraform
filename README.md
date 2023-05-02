@@ -69,5 +69,7 @@ Now, Signup application with email and password, it will sent verification code 
 after verification you will logged into application.
 after logged in, check with the lambda function cloudwatch logs it will show the details of the user, that is as shown in image
 
+![Screenshot (111)](https://user-images.githubusercontent.com/120295902/235738321-1b4a7925-22b8-4ee4-a2ca-caf0c450f7fc.png)
+
 ![Screenshot (103)](https://user-images.githubusercontent.com/120295902/235731255-f7eea894-d373-4ef8-b87e-a023f79de472.png)
 
