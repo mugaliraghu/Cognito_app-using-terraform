@@ -42,7 +42,7 @@ to verify the resources, open the management console and go to the "cognito" sea
 
 ![Screenshot (112)](https://user-images.githubusercontent.com/120295902/235833543-701fa476-af86-4e2f-88b1-c0553e4a602d.png)
  
- open the App integration menu in that you will get client details
+ open the App integration menu in that you will get client details as shown, if you open app client you can see host ui page.
  
 ![Screenshot (106)](https://user-images.githubusercontent.com/120295902/235735658-8d887291-8903-4c34-a01c-e623d0a8aaa0.png)
 
