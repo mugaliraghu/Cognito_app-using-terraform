@@ -40,6 +40,10 @@ terraform apply --auto-approve
 ```
 to verify the resources, open the management console and go to the "cognito" search the name of the userpool that you given while creating terraform code.
 
+![Screenshot (112)](https://user-images.githubusercontent.com/120295902/235833543-701fa476-af86-4e2f-88b1-c0553e4a602d.png)
+ 
+ open the App integration menu in that you will get client details
+ 
 ![Screenshot (106)](https://user-images.githubusercontent.com/120295902/235735658-8d887291-8903-4c34-a01c-e623d0a8aaa0.png)
 
 also check with the App integration in that it will create App clients
