@@ -59,7 +59,7 @@ as shown in below image
 
 ![Screenshot (100)](https://user-images.githubusercontent.com/120295902/235729317-90441b7e-8859-4a6b-b343-2aaae7b733e0.png)
 
-and do same in logged_out.html(same url used for both index.html and logged_in.html).
+and do same in logged_out.html(same url used for both index.html and logged_out.html).
 
 ![Screenshot (102)](https://user-images.githubusercontent.com/120295902/235729341-80a18471-a6dc-4690-90ca-606b7d86db81.png)
 
