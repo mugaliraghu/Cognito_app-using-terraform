@@ -46,7 +46,7 @@ to verify the resources, open the management console and go to the "cognito" sea
  
 ![Screenshot (106)](https://user-images.githubusercontent.com/120295902/235735658-8d887291-8903-4c34-a01c-e623d0a8aaa0.png)
 
-also check with the App integration in that it will create App clients
+The host ui page as shown below, here we can see callback url's and logout url's.
 
 ![Screenshot (104)](https://user-images.githubusercontent.com/120295902/235735667-8992eee2-d7dd-44ab-9702-85e56272d267.png)
 
