@@ -23,7 +23,7 @@ resource "aws_cognito_user_pool" "pool" {
   verification_message_template {
     default_email_option = "CONFIRM_WITH_CODE"
     email_subject = "Account Confirmation"
-    email_message = "Your confirmation code is {####}"
+    email_message = "Your confirmation code is {#####}"
   }
 
   admin_create_user_config {
@@ -42,7 +42,7 @@ resource "aws_cognito_user_pool_domain" "main" {
 }
 
 resource "aws_cognito_user_pool_client" "userpool_client" {
-   name                                 = "client"
+   name                                 = "myclient"
    generate_secret     = false
    user_pool_id = aws_cognito_user_pool.pool.id
    callback_urls      = ["http://localhost:8000/logged_in.html"]            
